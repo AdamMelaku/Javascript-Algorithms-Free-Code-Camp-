@@ -1,0 +1,19 @@
+
+//modify replaceAt function to be implemented in titleCase function
+String.prototype.replaceAt = function(index, character) {
+    return this.substr(0, index) + character + this.substr(index+character.length);
+};
+
+
+//Function created to return first letter of each word in string capitalized
+function titleCase(str) {
+    var newTitle = str.split(' ');
+    var updatedTitle = [];
+    for (var st in newTitle) {
+        updatedTitle[st] = newTitle[st].toLowerCase().replaceAt(0, newTitle[st].charAt(0).toUpperCase());
+    }
+    return updatedTitle.join(' ');
+}
+
+//Implement function titleCase
+titleCase("I'm a little tea pot");
