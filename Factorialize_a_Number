@@ -1,0 +1,15 @@
+
+//function created to factorilize and integer
+function factorialize(num) {
+var total = 1;
+  
+for(var i = num; i>=1; i--)
+{
+  total=(total*i);  
+}
+  
+  return total;
+}
+
+//Implementing the factorialize function
+factorialize(5);
