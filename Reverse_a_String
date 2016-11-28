@@ -1,0 +1,11 @@
+
+//function created to take string and reverse it
+function reverseString(str) {
+  var test = str.split("");
+  var test2 = test.reverse();
+  var final = test2.join("");
+  return final;
+}
+
+//implementing function reverseString
+reverseString("hello");
