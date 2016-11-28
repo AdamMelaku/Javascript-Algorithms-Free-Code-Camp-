@@ -1,7 +1,8 @@
 # Javascript-Algorithms-Free-Code-Camp-
 
 
-Below are freecodecamp algorithims that I worked on. 
+FreeCodeCamp has javascript algorithims that I have completed in order to show competency and gain certificates. 
+Below are the questions of the assignment and their solutions posted by the same name in the repository.  
 *************************************************************************************
 
 REVERSE A STRING
